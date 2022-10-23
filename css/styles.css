@@ -193,9 +193,8 @@ body{
    text-align: center;
    align-content: center;
    padding: 200px;
-   background-image: url(/images/team\ background.jpg);
+   background-image: linear-gradient(rgb(47, 48, 58, 0.6), rgb(47, 48, 58, 0.6)), url(/images/team\ background.jpg);
    background-size: cover;
- 
 }
 
 .subsectionheading{
