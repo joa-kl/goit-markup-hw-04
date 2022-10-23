@@ -29,8 +29,16 @@
         </nav>
         <div>
             <ul class="list contact">
-                <li><a href="mailto:info@devstudio.com" class="contactcolor">info@devstudio.com</a></li>
-                <li><a href="tel:+48111111111" class="contactcolor">+48 111 111 111</a></li>
+                <li class="envelope">
+                    <svg class="contactcolor" width="16" height="12">
+                        <use href="./images/icons.svg#envelope"></use>
+                    </svg>
+                    <a href="mailto:info@devstudio.com" class="contactcolor">info@devstudio.com</a></li>
+                <li class="phone">
+                    <svg class="contactcolor" width="10" height="16">
+                        <use href="./images/icons.svg#smartphone"></use>
+                    </svg>
+                    <a href="tel:+48111111111" class="contactcolor">+48 111 111 111</a></li>
             </ul>
         </div>
 
@@ -155,18 +163,41 @@
     
     </main>
     <footer class="footersection-portfolio ">
-        <div class="container">
-        <section>
+        <div class="container footer-display">
+            <div class="footer-address">
             <a href="#" class="logo"><span class="logoblue">Web</span><span class="logowhite">Studio</span></a>
-        </section>
-    <address class="address">
-        m. Warszawa, Aleje Jerozolimskie 21
-    </address>
-    <ul class="list one">
-        <li><a href="mailto:info@example.com" class="footer">info@example.com</a></li>
-        <li><a href="tel:+48111111111" class="footer decoration">+48 111 111 111</a></li>
-    </ul>
-    </div>
+            <address class="address">
+            m. Warszawa, Aleje Jerozolimskie 21
+            </address>
+            <ul class="list one">
+            <li><a href="mailto:info@example.com" class="footer">info@example.com</a></li>
+            <li><a href="tel:+48111111111" class="footer decoration">+48 111 111 111</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>DOŁĄCZ DO NAS</h3>
+            <div class="fotter-sm icon-sm-box">
+                <div class="icon-box-footer">
+                    <svg class="icon-sm-footer" width="20" height="20">
+                        <use href="/images/icons.svg#instagram-2"></use>
+                    </svg>
+                </div>
+                <div class="icon-box-footer">
+                    <svg class="icon-sm-footer" width="20" height="20">
+                        <use href="/images/icons.svg#twitter-1"></use>
+                    </svg>
+                </div>
+                <div class="icon-box-footer">
+                    <svg class="icon-sm-footer" width="20" height="20">
+                        <use href="/images/icons.svg#facebook-1"></use>
+                    </svg>
+                </div>
+                <div class="icon-box-footer">
+                    <svg class="icon-sm-footer" width="20" height="20">
+                        <use href="/images/icons.svg#linkedin-1"></use>
+                    </svg>
+                </div>
+            </div>
     </footer>
 </body>
 </html>
