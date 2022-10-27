@@ -456,7 +456,6 @@ justify-content: space-between;
 .icon-sm {
     width: 20px;
     height: 20px;
-    fill: #AFB1B8;
 }
 
 .icon-sm-box {
@@ -471,6 +470,7 @@ justify-content: space-between;
     width: 44px;
     height: 44px;
     padding: 12px;
+    fill: #AFB1B8;
 }
 
 .icon-box:hover {
