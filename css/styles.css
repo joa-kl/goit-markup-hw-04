@@ -474,15 +474,12 @@ justify-content: space-between;
 }
 
 .icon-box:hover {
-    color: var(--white);
+    fill: var(--white);
     background-color: var(--brand-color);
     border-radius: 50%;
     cursor: pointer;
 }
 
-.icon-sm:hover {
-    fill: var(--white)
-}
 
 .icon-client {
    width: 106px;
